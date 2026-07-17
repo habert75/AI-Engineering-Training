@@ -1,0 +1,10 @@
+Tvé zadání zní:
+👉 Příprava datasetu
+📍 Zvolte si způsob, jakým byste chtěli změnit chování LLM nebo ho naučit nové informace. Připravte pro tento účel dataset, který bude použit pro doladění (fine-tuning). 
+
+
+
+Zaměřte se na sběr, čištění a strukturování dat tak, aby odpovídala požadavkům pro trénování modelu.
+
+
+📄 Formát: Soubor s Daty / Odkaz na váš GitHub repozitář
