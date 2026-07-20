@@ -1,3 +1,0 @@
-As solution to the homework described in C:\Users\jhabinshuti\OneDrive - vig.cz\Documents\IA\AI\AI-Engineering-Training\Homework 4\Task.txt, i would like to implement a simple AI agent using langgraph framework to answer user queries. 
-the agent should use a tool to connect to elasticsearch running on my docker desktop accessible at http://localhost:9200/
-Agent code can be in style of agent implemented in C:\Users\jhabinshuti\OneDrive - vig.cz\Documents\IA\AI\AI-Engineering-Training\Homework 4\5_agent\0_react_manual but it should search in elastic search instead of tavily
