@@ -1,0 +1,16 @@
+Your assignment:
+📍 Design and build an agent using a framework that works with tools and answers user queries through an LLM (Large Language Model). Choose one framework from the list below. The tools can be selected freely; the list below is only an example. Consider using MCP (Model Context Protocol) instead of framework-specific tools.
+Frameworks
+
+LangGraph
+LangChain
+Microsoft Agent Framework
+
+Tools
+
+Databases (SQL, NoSQL, Full-text Search, Vector Databases, File Systems)
+Search Engines (Tavily, SerpAPI)
+Wikipedia
+Gmail
+Wolfram Alpha
+etc.

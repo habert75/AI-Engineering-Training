@@ -1,0 +1,15 @@
+[project]
+name = "react-elasticsearch-agent"
+version = "0.1.0"
+description = "LangGraph ReAct agent using Elasticsearch as a tool"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain[openai]>=0.3.0",
+    "langchain-openai>=0.3.0",
+    "langgraph>=0.2.0",
+    "requests>=2.31.0",
+    "pillow>=11.0.0",
+    "python-dotenv>=1.0.0",
+    "jsonpatch>=1.33",
+]
