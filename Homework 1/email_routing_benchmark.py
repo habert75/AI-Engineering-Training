@@ -34,43 +34,73 @@ SUPPORT_CATEGORIES = {
 TEST_EMAILS = [
     {
         "id": "email_001",
-        "content": "Hello, I want to upgrade my economy ticket to business class for my flight tomorrow. Can you help me with that?",
-        "expected_category": "Reservations & Ticketing"
-    },
-    {
-        "id": "email_002",
-        "content": "My baggage arrived damaged. The handle is completely broken. I need to file a claim for compensation.",
-        "expected_category": "Baggage & Lost & Found"
-    },
-    {
-        "id": "email_003",
-        "content": "I was on flight AA123 that got cancelled last week. According to EU261, I'm entitled to compensation. Please process my claim.",
-        "expected_category": "Refunds & Compensation"
-    },
-    {
-        "id": "email_004",
-        "content": "I have 5000 miles in my frequent flyer account. I'd like to redeem them for a domestic flight next month.",
+        "content": "I want to upgrade my ticket but my miles aren't showing up in my account.",
         "expected_category": "Frequent Flyer Program (Loyalty)"
     },
     {
+        "id": "email_002",
+        "content": "I need a refund because I can't find my booking confirmation anywhere.",
+        "expected_category": "Reservations & Ticketing"
+    },
+    {
+        "id": "email_003",
+        "content": "My elderly father needs help but I need to change his ticket first.",
+        "expected_category": "Reservations & Ticketing"
+    },
+    {
+        "id": "email_004",
+        "content": "I lost my bag and need compensation for the items inside.",
+        "expected_category": "Baggage & Lost & Found"
+    },
+    {
         "id": "email_005",
-        "content": "I'm traveling with my elderly mother who uses a wheelchair. We need assistance boarding and deplaning. Our flight is in 2 days.",
+        "content": "Can I use my points to pay for my wheelchair assistance fee?",
         "expected_category": "Special Assistance"
     },
     {
         "id": "email_006",
-        "content": "I need to change my name on the ticket. I recently got married and my official ID now has my new surname.",
-        "expected_category": "Reservations & Ticketing"
-    },
-    {
-        "id": "email_007",
-        "content": "My suitcase didn't arrive with me. I've filled out the lost baggage form at the airport. What's the next step?",
+        "content": "I found someone else's medication in my suitcase after I got home.",
         "expected_category": "Baggage & Lost & Found"
     },
     {
+        "id": "email_007",
+        "content": "I want compensation but first I need to update my loyalty account details.",
+        "expected_category": "Frequent Flyer Program (Loyalty)"
+    },
+    {
         "id": "email_008",
-        "content": "I was told your airline would refund my flight due to the long delay. I haven't received anything yet. Where is my refund?",
-        "expected_category": "Refunds & Compensation"
+        "content": "My ticket says I'm upgraded to first class but I never requested this and don't want to pay extra.",
+        "expected_category": "Reservations & Ticketing"
+    },
+    {
+        "id": "email_009",
+        "content": "I need to rebook my canceled flight using a voucher from a previous compensation.",
+        "expected_category": "Reservations & Ticketing"
+    },
+    {
+        "id": "email_010",
+        "content": "Where do I report a missing item from my carry-on bag that I had during the flight?",
+        "expected_category": "Baggage & Lost & Found"
+    },
+    {
+        "id": "email_011",
+        "content": "I was promised a refund in miles instead of money. How do I get those miles?",
+        "expected_category": "Frequent Flyer Program (Loyalty)"
+    },
+    {
+        "id": "email_012",
+        "content": "My son needs oxygen during the flight and I need to change our seats to accommodate this.",
+        "expected_category": "Special Assistance"
+    },
+    {
+        "id": "email_013",
+        "content": "Can I get a refund on the ticket I bought with miles?",
+        "expected_category": "Reservations & Ticketing"
+    },
+    {
+        "id": "email_014",
+        "content": "I need special assistance but your website won't let me modify my existing reservation.",
+        "expected_category": "Reservations & Ticketing"
     }
 ]
 
@@ -99,7 +129,7 @@ FEW_SHOT_EXAMPLES = [
 
 def create_zero_shot_prompt(email_content):
     """Create a zero-shot prompt for email classification."""
-    categories_list = "\n".join([f"- {cat}: {desc}" for cat, desc in SUPPORT_CATEGORIES.items()])
+    categories_list = "\n".join([f"- {cat}" for cat in SUPPORT_CATEGORIES.keys()])
     
     prompt = f"""You are an email routing specialist for an airline. Your task is to classify incoming customer support emails into one of these categories:
 
@@ -115,7 +145,7 @@ Classify this email into one of the support categories above. Return ONLY the ca
 
 def create_one_shot_prompt(email_content):
     """Create a one-shot prompt for email classification."""
-    categories_list = "\n".join([f"- {cat}: {desc}" for cat, desc in SUPPORT_CATEGORIES.items()])
+    categories_list = "\n".join([f"- {cat}" for cat in SUPPORT_CATEGORIES.keys()])
     
     prompt = f"""You are an email routing specialist for an airline. Your task is to classify incoming customer support emails into one of these categories:
 
@@ -134,7 +164,7 @@ Category:"""
 
 def create_few_shot_prompt(email_content):
     """Create a few-shot prompt for email classification."""
-    categories_list = "\n".join([f"- {cat}: {desc}" for cat, desc in SUPPORT_CATEGORIES.items()])
+    categories_list = "\n".join([f"- {cat}" for cat in SUPPORT_CATEGORIES.keys()])
     
     examples_text = "\n\n".join([
         f"Email: {ex['email']}\nCategory: {ex['category']}"
@@ -158,17 +188,31 @@ Category:"""
 def call_gpt_model(model_name, prompt):
     """Call OpenAI API with specified model."""
     try:
-        response = client.chat.completions.create(
-            model=model_name,
-            messages=[
-                {"role": "system", "content": "You are a helpful email routing specialist."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.7,
-            max_tokens=100,
-            timeout=30
-        )
-        return response.choices[0].message.content.strip()
+        # Use Completions API for instruct models, Chat API for chat models
+        if "instruct" in model_name.lower():
+            # For instruct models, use the Completions endpoint
+            full_prompt = f"You are a helpful email routing specialist.\n\n{prompt}"
+            response = client.completions.create(
+                model=model_name,
+                prompt=full_prompt,
+                temperature=0.7,
+                max_tokens=100,
+                timeout=30
+            )
+            return response.choices[0].text.strip()
+        else:
+            # For chat models, use the Chat Completions endpoint
+            response = client.chat.completions.create(
+                model=model_name,
+                messages=[
+                    {"role": "system", "content": "You are a helpful email routing specialist."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.7,
+                max_tokens=100,
+                timeout=30
+            )
+            return response.choices[0].message.content.strip()
     except Exception as e:
         error_msg = str(e)
         print(f"\nError calling {model_name}: {error_msg}")
@@ -223,7 +267,7 @@ def run_benchmark_interactive():
     """Run interactive benchmark with user input."""
     
     results = []
-    models = ["gpt-3.5-turbo", "gpt-4-turbo-preview"]
+    models = ["gpt-3.5-turbo-instruct","gpt-3.5-turbo"]
     techniques = ["zero-shot", "one-shot", "few-shot"]
     
     print("=" * 80)
