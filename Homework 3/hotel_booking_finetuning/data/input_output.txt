@@ -1,0 +1,142 @@
+Input: How can I make a booking at the hotel?
+Output: You can make a booking by writing a request to the hotel's email office@lhj.lv, by filling out the necessary information on the hotel's website www.lighthousejurmala.lv to send the reservation request, or through other online reservation systems.
+Input: What information do I need to provide when booking a room?
+Output: To book a room, you must provide the exact room name, accommodation period, your name, phone number, email address, and your credit card number with its expiration date to guarantee payment.
+Input: What credit cards does the hotel accept?
+Output: The hotel accepts American Express, Visa, MasterCard, and Maestro credit cards for payment.
+Input: What are the special booking requirements for the High Season?
+Output: During the High Season (July 1 - August 15), you can only book a room by making a prepayment or by allowing the hotel to charge your credit card for the full amount of the reserved accommodation period. The payment is charged from your credit card on the day the booking is made.
+Input: When is the hotel's High Season?
+Output: The hotel's High Season is from July 1 to August 15 (01.07. - 15.08.).
+Input: How can I guarantee my reservation?
+Output: You can guarantee your reservation by providing the hotel with your credit card number and expiration date or by making a prepayment, which must be done not later than 24 hours prior to arrival.
+Input: What happens if my reservation is not guaranteed?
+Output: If your reservation is not guaranteed, the hotel keeps the right to sell the room to another person.
+Input: How many hours before arrival can I cancel my reservation without penalty?
+Output: You can cancel your guaranteed reservation without any penalties up to 72 hours prior to the arrival date by sending a written cancellation request to the hotel's email office@lhj.lv or through the exact online reservation system where the booking was made.
+Input: What is the cancellation policy for late cancellations?
+Output: If you cancel your reservation less than 72 hours before arrival or in case of no-show, and the reservation is guaranteed with a credit card, a penalty equal to the accommodation cost for the first night will be charged.
+Input: Will I get a refund if I cancel during the High Season?
+Output: No, cancellation is not possible during the High Season (01.07. - 15.08.). If you cancel your reservation or fail to show up, the hotel will not return the pre-paid amount.
+Input: What happens if I paid in advance and cancel late?
+Output: In case of delayed reservation cancellation or without informing the hotel about the cancellation, the hotel does not return the pre-paid amount for a guaranteed reservation.
+Input: Can the hotel cancel my booking?
+Output: Yes, in emergency situations the hotel can cancel your booking for objective reasons, such as force majeure or other reasons affecting hotel service performance, or if wrong or misleading information was provided during booking.
+Input: Am I entitled to compensation if the hotel cancels my booking?
+Output: If the hotel cancels your booking for reasonable reasons, you have no right to loss compensation.
+Input: What time is check-in?
+Output: Check-in time starts from 2:00 p.m.
+Input: What time is check-out?
+Output: Check-out time ends at 12:00 a.m. (noon).
+Input: What do I need to present at check-in?
+Output: At check-in, all guests must provide hotel administration with a valid passport or ID card and a valid credit card to guarantee potential additional services. If you don't have a credit card, you must submit a cash deposit of 200.00 EUR.
+Input: What is the cash deposit amount if I don't have a credit card?
+Output: If you don't present a credit card at check-in, you must submit a cash deposit of 200.00 EUR to guarantee potential additional services.
+Input: What if I made a reservation in advance or through an online system?
+Output: Upon arrival, you must present the booking confirmation or a voucher from the tour company and the credit card that was used to guarantee the reservation.
+Input: Will the hotel pre-authorize my credit card?
+Output: Yes, the hotel reserves the right to pre-authorize your credit card for the amount that would cover the accommodation costs.
+Input: When do I need to pay for my accommodation?
+Output: Payment for accommodation must be made during check-in.
+Input: Can I check in early or check out late?
+Output: Yes, the hotel can offer early check-in and late check-out if you approve the availability in advance with the hotel administration.
+Input: What time is early check-in available?
+Output: Early check-in is available from 10:00 a.m. for an additional cost of 25% of the booked room rate for 1 night.
+Input: Is there a fee for early check-in?
+Output: Yes, early check-in from 10:00 a.m. costs an additional 25% of the booked room rate for 1 night.
+Input: What is the cancellation deadline for guaranteed reservations?
+Output: The cancellation deadline for guaranteed reservations is 72 hours prior to the arrival date. Cancellations must be sent in writing to office@lhj.lv or through the online reservation system where the booking was made.
+Input: How do I contact the hotel to cancel my reservation?
+Output: You can cancel your reservation by sending a written request to the hotel's email office@lhj.lv or by using the exact online reservation system where the booking was made.
+Input: What is the hotel's email address?
+Output: The hotel's email address is office@lhj.lv.
+Input: What is the hotel's website?
+Output: The hotel's website is www.lighthousejurmala.lv.
+Input: What payment methods are accepted at the hotel?
+Output: The hotel accepts American Express, Visa, MasterCard, and Maestro credit cards for payment.
+Input: Do I need to provide my credit card information when booking?
+Output: Yes, you must provide your credit card number and expiration date when booking to guarantee payment for hotel services in case of late cancellation or no-show.
+Input: What happens if I don't show up for my reservation?
+Output: If you don't show up for your reservation (no-show) and it was guaranteed with a credit card, a penalty equal to the accommodation cost for the first night will be charged. During the High Season, the full pre-paid amount will not be returned.
+Input: Can I modify my booking dates?
+Output: The policy doesn't specifically mention date modifications. You would need to contact the hotel at office@lhj.lv to inquire about changing your booking dates, keeping in mind that cancellation policies may apply.
+Input: Is prepayment required for all bookings?
+Output: Prepayment is not required for all bookings, but it is mandatory for High Season bookings (01.07. - 15.08.) and it's one of the options to guarantee your reservation (the other being providing credit card details).
+Input: What are the booking requirements?
+Output: Booking requirements include providing the exact room name, accommodation period, guest's name, phone number, email address, and credit card number with expiration date. For High Season bookings, prepayment or full charge authorization is required.
+Input: How is my reservation guaranteed?
+Output: Your reservation is guaranteed either by providing your credit card number and expiration date or by making a prepayment at least 24 hours before arrival.
+Input: What if I book through a third-party website?
+Output: If you make a reservation via an online booking system, the cancellation shall be in accordance with their booking cancellation conditions. Upon arrival, you must present the booking confirmation or voucher.
+Input: Can I get a refund if I cancel 24 hours before check-in?
+Output: No, if you cancel less than 72 hours before arrival, you will not receive a full refund. For guaranteed reservations with credit card, you'll be charged the cost of the first night. For pre-paid amounts, the hotel does not return the money.
+Input: What is force majeure in the hotel's policy?
+Output: Force majeure refers to extraordinary circumstances beyond the hotel's control that affect hotel service performance. The hotel does not accept liability for such circumstances and may cancel bookings without offering compensation to the client.
+Input: Can I use someone else's credit card for my booking?
+Output: The policy states that upon arrival you must present the credit card that was mentioned to guarantee the reservation. It's best to contact the hotel directly at office@lhj.lv to clarify if you need to use a different card.
+Input: What happens if I provide wrong information when booking?
+Output: If wrong or misleading information concerning personal identity or intention of stay is provided when booking the room, the hotel can cancel your booking.
+Input: Is there a late check-out option?
+Output: Yes, the hotel can offer late check-out if you approve the availability in advance with the hotel administration. The cost for late check-out is not explicitly mentioned in the policy.
+Input: Must I pay the full amount during the High Season?
+Output: Yes, during the High Season (01.07. - 15.08.), you must either make a prepayment or allow the hotel to charge your credit card for the full amount equal to the cost of all the reserved accommodation period on the day the booking is made.
+Input: What identification is required at check-in?
+Output: At check-in, all guests must provide a valid passport or ID card to the hotel administration.
+Input: Why does the hotel need my credit card at check-in?
+Output: The hotel requires a valid credit card at check-in to guarantee potential additional services. The hotel may pre-authorize your card for the amount that would cover the accommodation costs.
+Input: What is the alternative to providing a credit card at check-in?
+Output: If you don't agree to present a credit card at check-in, you must submit a cash deposit of 200.00 EUR to guarantee potential additional services.
+Input: When will I be charged for my booking during High Season?
+Output: During the High Season (01.07. - 15.08.), payment is charged from your credit card on the day the booking is made.
+Input: Are there any exceptions to the 72-hour cancellation policy?
+Output: During the High Season (01.07. - 15.08.), there are no exceptions - cancellation is not possible at all. For other periods, the 72-hour cancellation policy applies without exceptions mentioned in the policy.
+Input: Can I book without providing credit card information?
+Output: The policy requires you to provide your credit card number and expiration date to guarantee payment for hotel services in case of late cancellation or no-show. However, you may want to contact the hotel directly at office@lhj.lv to discuss alternative arrangements.
+Input: What should I do if I need to cancel my High Season reservation?
+Output: During the High Season (01.07. - 15.08.), cancellation is not possible. If you cancel or fail to show up, the hotel will not return the pre-paid amount. It's recommended to review your travel plans carefully before booking during this period.
+Input: How far in advance should I guarantee my reservation?
+Output: You should guarantee your reservation by providing credit card details or making a prepayment not later than 24 hours prior to your arrival.
+Input: What is the hotel's no-show policy?
+Output: In case of no-show, if the reservation was guaranteed with a credit card, a penalty equal to the accommodation cost for the first night will be charged. During High Season, the full pre-paid amount will not be returned.
+Input: Can the hotel refuse my check-in?
+Output: While not explicitly stated, the hotel can cancel bookings if wrong or misleading information was provided, or in emergency situations. It's important to provide accurate information and comply with check-in requirements.
+Input: What is an unguaranteed reservation?
+Output: An unguaranteed reservation is a booking that is not secured with credit card details or prepayment. In such cases, the hotel keeps the right to sell the room to another person.
+Input: How does the hotel handle booking confirmations?
+Output: If you book through the hotel directly or online systems, you should receive a booking confirmation. Upon arrival, you must present this confirmation or a voucher from your tour company along with the credit card used for the reservation.
+Input: What are the terms and conditions for booking?
+Output: The terms and conditions include providing complete booking information with credit card guarantee, adhering to cancellation policies (72 hours for regular season, no cancellation during High Season), checking in with valid ID and credit card or cash deposit, and complying with check-in (2:00 p.m.) and check-out (12:00 a.m.) times.
+Input: How do I request early check-in?
+Output: You can request early check-in by contacting the hotel administration in advance to approve the availability. Early check-in from 10:00 a.m. is available for an additional cost of 25% of the booked room rate for 1 night.
+Input: Is the 200 EUR deposit refundable?
+Output: The policy states that the 200.00 EUR cash deposit is to guarantee potential additional services, which implies it should be refundable if no additional charges are incurred, but it's best to confirm this directly with the hotel.
+Input: What is the purpose of credit card pre-authorization?
+Output: The hotel pre-authorizes the guest's credit card for the amount that would cover the accommodation costs as a security measure to ensure payment for the stay and potential additional services.
+Input: Can I pay cash for my accommodation?
+Output: While the policy emphasizes credit card payments and guarantees, payment methods at check-in aren't explicitly limited. You should contact the hotel at office@lhj.lv to confirm if cash payment is accepted.
+Input: What if I arrive before 2:00 p.m.?
+Output: Regular check-in starts at 2:00 p.m. If you arrive earlier, you can request early check-in from 10:00 a.m. for an additional cost of 25% of the booked room rate for 1 night, subject to availability and prior approval from hotel administration.
+Input: What if I stay past 12:00 noon check-out time?
+Output: If you need to stay past the 12:00 noon check-out time, you should request late check-out by approving the availability in advance with the hotel administration. Additional charges may apply.
+Input: Does the hotel send booking confirmation emails?
+Output: While not explicitly stated in the policy, when you book through email at office@lhj.lv or through the website, you should receive a booking confirmation that you'll need to present upon arrival.
+Input: What booking information is mandatory?
+Output: Mandatory booking information includes the exact room name, accommodation period, guest's name, phone number, email address, and credit card number with its expiration date.
+Input: How does the 72-hour cancellation rule work?
+Output: The 72-hour cancellation rule means you must cancel your guaranteed reservation at least 72 hours (3 days) before your scheduled arrival date to avoid penalties. Cancellations must be sent in writing to office@lhj.lv or through the online booking system used for the reservation.
+Input: What happens if the hotel cancels my booking due to force majeure?
+Output: If the hotel cancels your booking due to force majeure or other objective reasons affecting hotel service performance, you have no right to loss compensation. The hotel does not accept liability for such circumstances.
+Input: Can I transfer my reservation to someone else?
+Output: The policy doesn't explicitly address transferring reservations to another person. You should contact the hotel directly at office@lhj.lv to inquire about this possibility.
+Input: What are the check-in requirements for group bookings?
+Output: The policy doesn't specifically address group bookings. However, standard check-in requirements would apply: all guests must provide valid ID and credit card (or cash deposit). For group-specific policies, contact office@lhj.lv.
+Input: Is travel insurance recommended?
+Output: While the policy doesn't mention travel insurance, given the strict cancellation policy (especially during High Season) and no compensation for hotel-initiated cancellations due to force majeure, having travel insurance would be advisable.
+Input: How strict is the High Season cancellation policy?
+Output: The High Season cancellation policy is very strict - cancellation is not possible at all during July 1 to August 15. If you cancel or don't show up, the hotel will not return the pre-paid amount under any circumstances.
+Input: What should I bring to check-in?
+Output: You should bring a valid passport or ID card, the credit card used for the reservation, and your booking confirmation or voucher. If you don't have a credit card, bring 200.00 EUR cash for the deposit.
+Input: Can I make changes to my reservation after booking?
+Output: The policy doesn't explicitly address reservation modifications. Any changes would likely be subject to the cancellation and rebooking policies. Contact the hotel at office@lhj.lv to discuss specific changes.
+Input: What is the policy for online bookings made through third-party sites?
+Output: For reservations made via online booking systems, the cancellation shall be in accordance with their specific booking cancellation conditions. You must present the booking confirmation or voucher upon arrival along with the credit card used for the reservation.

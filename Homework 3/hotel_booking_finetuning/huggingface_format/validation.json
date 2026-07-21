@@ -1,0 +1,182 @@
+[
+  {
+    "text": [
+      {
+        "role": "user",
+        "content": "What if I made a reservation in advance or through an online system?"
+      },
+      {
+        "role": "assistant",
+        "content": "Upon arrival, you must present the booking confirmation or a voucher from the tour company and the credit card that was used to guarantee the reservation."
+      }
+    ]
+  },
+  {
+    "text": [
+      {
+        "role": "user",
+        "content": "How do I contact the hotel to cancel my reservation?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can cancel your reservation by sending a written request to the hotel's email office@lhj.lv or by using the exact online reservation system where the booking was made."
+      }
+    ]
+  },
+  {
+    "text": [
+      {
+        "role": "user",
+        "content": "What happens if I don't show up for my reservation?"
+      },
+      {
+        "role": "assistant",
+        "content": "If you don't show up for your reservation (no-show) and it was guaranteed with a credit card, a penalty equal to the accommodation cost for the first night will be charged. During the High Season, the full pre-paid amount will not be returned."
+      }
+    ]
+  },
+  {
+    "text": [
+      {
+        "role": "user",
+        "content": "What happens if I paid in advance and cancel late?"
+      },
+      {
+        "role": "assistant",
+        "content": "In case of delayed reservation cancellation or without informing the hotel about the cancellation, the hotel does not return the pre-paid amount for a guaranteed reservation."
+      }
+    ]
+  },
+  {
+    "text": [
+      {
+        "role": "user",
+        "content": "What do I need to present at check-in?"
+      },
+      {
+        "role": "assistant",
+        "content": "At check-in, all guests must provide hotel administration with a valid passport or ID card and a valid credit card to guarantee potential additional services. If you don't have a credit card, you must submit a cash deposit of 200.00 EUR."
+      }
+    ]
+  },
+  {
+    "text": [
+      {
+        "role": "user",
+        "content": "What is the policy for online bookings made through third-party sites?"
+      },
+      {
+        "role": "assistant",
+        "content": "For reservations made via online booking systems, the cancellation shall be in accordance with their specific booking cancellation conditions. You must present the booking confirmation or voucher upon arrival along with the credit card used for the reservation."
+      }
+    ]
+  },
+  {
+    "text": [
+      {
+        "role": "user",
+        "content": "What are the check-in requirements for group bookings?"
+      },
+      {
+        "role": "assistant",
+        "content": "The policy doesn't specifically address group bookings. However, standard check-in requirements would apply: all guests must provide valid ID and credit card (or cash deposit). For group-specific policies, contact office@lhj.lv."
+      }
+    ]
+  },
+  {
+    "text": [
+      {
+        "role": "user",
+        "content": "What time is early check-in available?"
+      },
+      {
+        "role": "assistant",
+        "content": "Early check-in is available from 10:00 a.m. for an additional cost of 25% of the booked room rate for 1 night."
+      }
+    ]
+  },
+  {
+    "text": [
+      {
+        "role": "user",
+        "content": "Will I get a refund if I cancel during the High Season?"
+      },
+      {
+        "role": "assistant",
+        "content": "No, cancellation is not possible during the High Season (01.07. - 15.08.). If you cancel your reservation or fail to show up, the hotel will not return the pre-paid amount."
+      }
+    ]
+  },
+  {
+    "text": [
+      {
+        "role": "user",
+        "content": "What if I book through a third-party website?"
+      },
+      {
+        "role": "assistant",
+        "content": "If you make a reservation via an online booking system, the cancellation shall be in accordance with their booking cancellation conditions. Upon arrival, you must present the booking confirmation or voucher."
+      }
+    ]
+  },
+  {
+    "text": [
+      {
+        "role": "user",
+        "content": "What is the hotel's website?"
+      },
+      {
+        "role": "assistant",
+        "content": "The hotel's website is www.lighthousejurmala.lv."
+      }
+    ]
+  },
+  {
+    "text": [
+      {
+        "role": "user",
+        "content": "Are there any exceptions to the 72-hour cancellation policy?"
+      },
+      {
+        "role": "assistant",
+        "content": "During the High Season (01.07. - 15.08.), there are no exceptions - cancellation is not possible at all. For other periods, the 72-hour cancellation policy applies without exceptions mentioned in the policy."
+      }
+    ]
+  },
+  {
+    "text": [
+      {
+        "role": "user",
+        "content": "What should I do if I need to cancel my High Season reservation?"
+      },
+      {
+        "role": "assistant",
+        "content": "During the High Season (01.07. - 15.08.), cancellation is not possible. If you cancel or fail to show up, the hotel will not return the pre-paid amount. It's recommended to review your travel plans carefully before booking during this period."
+      }
+    ]
+  },
+  {
+    "text": [
+      {
+        "role": "user",
+        "content": "Can I check in early or check out late?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the hotel can offer early check-in and late check-out if you approve the availability in advance with the hotel administration."
+      }
+    ]
+  },
+  {
+    "text": [
+      {
+        "role": "user",
+        "content": "Can I book without providing credit card information?"
+      },
+      {
+        "role": "assistant",
+        "content": "The policy requires you to provide your credit card number and expiration date to guarantee payment for hotel services in case of late cancellation or no-show. However, you may want to contact the hotel directly at office@lhj.lv to discuss alternative arrangements."
+      }
+    ]
+  }
+]

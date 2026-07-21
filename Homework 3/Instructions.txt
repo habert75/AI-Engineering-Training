@@ -1,0 +1,6 @@
+
+For solution to the task in Homework 3\Task.txt, i would like to finetune openAI GPT-4 model to using already prepared dataset in C:\Users\Admin\Documents\Training\AI Engineering\AI-Engineering-Training\Homework 3\hotel_booking_finetuning\openai_format
+
+i will then Compare the model's responses before and after fine-tuning and evaluate the changes using benchmarking.
+
+the solution should be a table in excel file containing answers and your scoring/evaluation (benchmarking).
