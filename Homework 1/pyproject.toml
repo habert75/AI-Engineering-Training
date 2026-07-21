@@ -1,0 +1,11 @@
+[project]
+name = "airline-email-routing-benchmark"
+version = "0.1.0"
+description = "Benchmarking and optimization of LLMs using prompt engineering for airline email routing"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "openai>=1.0.0",
+    "openpyxl>=3.0.0",
+    "python-dotenv>=1.0.0",
+]

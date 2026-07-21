@@ -1,0 +1,25 @@
+I would like to solve the task that was given as home work as described in file C:\Users\Admin\Documents\Training\AI Engineering\Homeworks\task.txt
+
+I am choosing to use AI to route customer support emails. 
+
+Information about my chosen area: I would like to use AI to route incoming emails from airline customers to different specialised teams below: 
+By Functional Department (Specialized Teams)
+
+Reservations & Ticketing: Route emails about changing names on tickets, correcting spelling errors, upgrading to business class, or canceling a booking for a voucher.
+
+Baggage & Lost & Found: Route emails about delayed baggage, damaged luggage, lost items left on the plane, or claims for reimbursement for emergency purchases (toothbrush/clothes due to lost bags).
+
+Refunds & Compensation: Route emails requesting monetary compensation (EU261 rules), refunds for canceled flights, or disputed credit card charges.
+
+Frequent Flyer Program (Loyalty): Route emails about missing miles, redeeming points for flights, or status tier matching.
+
+Special Assistance: Route emails about wheelchair assistance, traveling with service animals, unaccompanied minors, or passengers needing extra oxygen/medical equipment on board.
+
+
+I would like to use any 2 ChatGPT models from openai to solve this problem. comparison of the results and analysis of the quality of output should be saved in an xlsx file.
+for prompting techniques, i would like to consider only zero shot, one shot and few shots. 
+
+The solution should be implemented according to materials from the calss found in C:\Users\jhabinshuti\OneDrive - vig.cz\Documents\IA\AI\aide-rdcz-5\2_promp_engineering\1_prompt_engineering and C:\Users\jhabinshuti\OneDrive - vig.cz\Documents\IA\AI\aide-rdcz-5\2_promp_engineering\2_benchmarking
+Benchmarking should be according to instructions in readme file C:\Users\jhabinshuti\OneDrive - vig.cz\Documents\IA\AI\aide-rdcz-5\2_promp_engineering\2_benchmarking\manual\my_uncensored\README.md
+
+For testing and recoring the results, the solution should prompt user to enter the query on command line and it should save data into an excel file. this should be done for each prompt technique and model 
