@@ -1,0 +1,5 @@
+Your assignment is:
+👉 Fine-tuning
+📍 Choose a model fine-tuning method based on your intended use case – either using the OpenAI API (e.g., fine-tuning GPT-4) or Hugging Face (e.g., using Transformers and PEFT). 
+Compare the model's responses before and after fine-tuning and evaluate the changes through benchmarking.
+📄 Format: Submit the completed assignment in the form of a table in excel 

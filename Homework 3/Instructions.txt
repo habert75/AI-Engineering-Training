@@ -1,0 +1,5 @@
+as solution to homework in C:\Users\jhabinshuti\OneDrive - vig.cz\Documents\IA\AI\AI-Engineering-Training\Homework 3\Task.txt, 
+i would like to use use finetuning method huggingface Transformers and PEFT. since i dont have GPU, I would like to use already finetuned models using available adaptors on hugging face
+I would then like to Compare the model's responses before and after fine-tuning and evaluate the changes through benchmarking and save results in anxcel table
+
+the benchmark should follow instructions as in C:\Users\jhabinshuti\OneDrive - vig.cz\Documents\IA\AI\aide-rdcz-5\2_promp_engineering\2_benchmarking\manual\my_uncensored\README.md, and ideally i would like to benchmark models that were tfinetuned on knolwledge as in class materials C:\Users\jhabinshuti\OneDrive - vig.cz\Documents\IA\AI\aide-rdcz-5\6_hugging_face_finetuning\3_autogen
