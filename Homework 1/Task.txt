@@ -5,4 +5,4 @@ Conduct a benchmark of the model using a test set of queries and record the resp
 Then apply prompt engineering techniques (e.g., rephrasing the query, one-shot or few-shot prompting, Chain of Thought reasoning) and perform the benchmark again.
 Compare the results and analyze the differences in the quality of the responses.
 Focus on how different prompting approaches affect the model’s accuracy, consistency, and relevance of responses.
-📄 Output format: PDF / XLSX / Screenshot / Google Docs / Google Sheets.
+📄 Output format: XLSX 

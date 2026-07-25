@@ -1,0 +1,7 @@
+For solution to the task described in file C:\Users\jhabinshuti\OneDrive - vig.cz\Documents\IA\AI\AI-Engineering-Training\Huggingface_Finetuning\Homework3\Task.txt, i would like to
+Compare the base model with my version of finetuned model. the models should be tested on knowledge questions to see whether the finetuned modeld return better results than its base model
+ and general questions such as moral questions to check that finetuned version is still perfoming well as based model. the two models should then be benchmarked as in homework1 C:\Users\jhabinshuti\OneDrive - vig.cz\Documents\IA\AI\AI-Engineering-Training\Homework 1
+
+data set used to finetune model: https://huggingface.co/datasets/habert75/hotel-policies-small
+document containing hotel policies: C:\Users\jhabinshuti\OneDrive - vig.cz\Documents\IA\AI\AI-Engineering-Training\Huggingface_Finetuning\Homework3\Hotel Booking terms.md
+adaptors :https://huggingface.co/habert75/autogen-gemma4-4bit-lora-adapter 
